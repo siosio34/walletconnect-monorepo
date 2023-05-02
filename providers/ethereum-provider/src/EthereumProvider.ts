@@ -18,13 +18,17 @@ export type QrModalOptions = Pick<
   | "chainImages"
   | "desktopWallets"
   | "enableExplorer"
-  | "explorerAllowList"
-  | "explorerDenyList"
+  | "explorerRecommendedWalletIds"
+  | "explorerExcludedWalletIds"
   | "mobileWallets"
   | "privacyPolicyUrl"
   | "termsOfServiceUrl"
   | "tokenImages"
+  | "tokenContracts"
   | "walletImages"
+  | "standaloneChains"
+  | "enableNetworkView"
+  | "enableAccountView"
 >;
 
 export type RpcMethod =
